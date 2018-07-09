@@ -1,0 +1,16 @@
+.clean-block .block-heading {
+  padding-top:20px;
+  margin-bottom:20px;
+}
+
+.clean-block .resume-wizard-head{
+  text-align: center
+}
+
+.clean-block.clean-form form.resume-wizard {
+  max-width: 100%;
+  border:1px solid #dee2e6;
+  border-top:none;
+
+}
+
