@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,6 @@
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="#">RB</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -34,7 +32,9 @@
                     <ul class="nav nav-tabs">
                         <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Personal Details</a></li>
                         <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Experience</a></li>
-                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3">Tab 3</a></li>
+                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-4">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-5">Summary</a></li>
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane active" role="tabpanel" id="tab-1">
@@ -77,12 +77,18 @@
                                         </div>
                                         <div class="row">
                                                     <div class="form-group col-sm-6">
-                                                        <label>Start Date</label><input class="form-control" type="text">
-                                                        <input class="form-control" type="text">
+                                                        <label>Start Date</label>
+                                                        <div class="row no-gutters">
+                                                            <input class="form-control col-sm-5" type="text">
+                                                            <input class="form-control col-sm-5 offset-sm-1" type="text">
+                                                        </div>
                                                     </div>
                                                     <div class="form-group col-sm-6">
-                                                            <label>End Date</label><input class="form-control" type="text">
-                                                            <input class="form-control" type="text">
+                                                            <label>End Date</label>
+                                                            <div class="row no-gutters">
+                                                            <input class="form-control col-sm-5" type="text">
+                                                            <input class="form-control col-sm-5 offset-sm-1" type="text">
+                                                            </div>
                                                         </div>
 
 
@@ -102,10 +108,92 @@
                                         </div>
                                     </form>
 
-                                        </div>
-                        <div class="tab-pane" role="tabpanel" id="tab-3">
-                            <p>Content for tab 3.</p>
                         </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-3">
+                            
+                            <form class="resume-wizard">
+                                <div class="row">
+                                    <div class="form-group col-sm-6"><label>School Name</label><input class="form-control" type="text"></div>
+                                    <div class="form-group col-sm-6">&nbsp;</div>
+                                </div>
+                                <div class="row">
+                                        <div class="form-group col-sm-4"><label>Country</label><input class="form-control" type="text"></div>
+                                        <div class="form-group col-sm-4"><label>State</label><input class="form-control" type="text"></div>
+                                        <div class="form-group col-sm-4"><label>City</label><input class="form-control" type="text"></div>
+                                </div>
+                                <div class="row">
+                                            <div class="form-group col-sm-4">
+                                                <label>Select a Degree</label>
+                                                    <input class="form-control" type="text">
+                                        
+                                           
+                                            </div>
+
+                                            <div class="form-group col-sm-4">
+                                                <label>Subject</label>
+                                                    <input class="form-control" type="text">
+                                        
+                                           
+                                            </div>
+
+
+                                            <div class="form-group col-sm-4">
+                                                    <label>Graduation Date</label>
+                                                    <div class="row no-gutters">
+                                                    <input class="form-control col-sm-5" type="text">
+                                                    <input class="form-control col-sm-5 offset-sm-1" type="text">
+                                                    </div>
+                                                </div>
+
+
+                                </div>
+
+                                <div class="row">
+                                        <div class="form-group col-sm-9"></div>
+                                        <div class="form-group col-sm-3"><button class="btn btn-outline-primary btn-block" type="button">Save & Next</button></div>
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <div class="tab-pane" role="tabpanel" id="tab-4">
+                            
+                            <form class="resume-wizard">
+                                <div class="row">
+                                    <div class="form-group col-sm-6"><label>Skill</label><input class="form-control" type="text"></div>
+                                    <div class="form-group col-sm-6"><label>Level</label><input class="form-control" type="text"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-sm-6"><label>Skill</label><input class="form-control" type="text"></div>
+                                    <div class="form-group col-sm-6"><label>Level</label><input class="form-control" type="text"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-sm-6"><label>Skill</label><input class="form-control" type="text"></div>
+                                    <div class="form-group col-sm-6"><label>Level</label><input class="form-control" type="text"></div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="form-group col-sm-9"></div>
+                                    <div class="form-group col-sm-3"><button class="btn btn-outline-primary btn-block" type="button">Save & Next</button></div>
+                            </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-5">
+                            <form class="resume-wizard">
+                                <div class="row">
+                                    <div class="form-group col-sm-12"><label>Professional Summary</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-sm-9"></div>
+                                <div class="form-group col-sm-3"><button class="btn btn-outline-primary btn-block" type="button">Save & Next</button></div>
+                        </div>
+                            </form>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -156,5 +244,4 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
-
 </html>
