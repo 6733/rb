@@ -14,3 +14,10 @@
 
 }
 
+.clean-block.clean-form form.wizardform{
+  border:none;
+  max-width: none;
+  margin:0;
+  padding: 0;
+  box-shadow: none;
+}
